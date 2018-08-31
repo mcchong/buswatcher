@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9c35431-0764-488c-bbb0-431ede0ff16b" name="Default" comment="stripped back to alpha features/content -- moving towards deploy">
+    <list default="true" id="e9c35431-0764-488c-bbb0-431ede0ff16b" name="Default" comment="before preflight">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/ReportCard.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/ReportCard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportcard.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/reportcard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/route_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/route_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/index-base.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/index-base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/route_servicepicker.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/route_servicepicker.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/route_servicestoplist.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/route_servicestoplist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/stop-base.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/stop-base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/stop.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/stop.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +14,7 @@
     <session id="438890131">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="48" />
+          <entry key="project.closed" value="49" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="2" />
@@ -69,7 +59,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="#deploy_tasks" value="541" />
+          <entry key="#deploy_tasks" value="553" />
           <entry key="Python Console" value="493" />
           <entry key="css" value="29" />
           <entry key="dummy" value="17" />
@@ -77,7 +67,7 @@
           <entry key="js" value="401" />
           <entry key="md" value="6641" />
           <entry key="py" value="24699" />
-          <entry key="txt" value="1835" />
+          <entry key="txt" value="1851" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -86,7 +76,7 @@
           <entry key="HTML" value="14158" />
           <entry key="JavaScript" value="401" />
           <entry key="Markdown" value="6641" />
-          <entry key="PLAIN_TEXT" value="2270" />
+          <entry key="PLAIN_TEXT" value="2298" />
           <entry key="Python" value="25192" />
           <entry key="Scratch" value="123" />
         </counts>
@@ -98,11 +88,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/#deploy_tasks">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="176">
+              <caret line="6" column="93" selection-start-line="6" selection-start-column="93" selection-end-line="6" selection-end-column="93" />
             </state>
           </provider>
         </entry>
@@ -116,7 +106,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/templates/route_servicestoplist.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
@@ -249,8 +239,8 @@
         <option value="$PROJECT_DIR$/src/templates/route_servicepicker.html" />
         <option value="$PROJECT_DIR$/src/route_config.py" />
         <option value="$PROJECT_DIR$/src/templates/index-base.html" />
-        <option value="$PROJECT_DIR$/#deploy_tasks" />
         <option value="$PROJECT_DIR$/src/templates/route_servicestoplist.html" />
+        <option value="$PROJECT_DIR$/#deploy_tasks" />
       </list>
     </option>
   </component>
@@ -519,13 +509,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524759532211</updated>
-    </task>
-    <task id="LOCAL-00043" summary="re-org tree">
-      <created>1527881703297</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1527881703297</updated>
     </task>
     <task id="LOCAL-00044" summary="revised route parser to split inbound+outbound direction into 2 separate routes">
       <created>1528404942577</created>
@@ -863,7 +846,14 @@
       <option name="project" value="LOCAL" />
       <updated>1535583144074</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="before preflight">
+      <created>1535746561825</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1535746561827</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TodoView">
@@ -876,7 +866,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" show_stripe_button="false" sideWeight="0.5060241" side_tool="true" weight="0.36011276" />
       <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.59638554" visible="true" weight="0.18675123" />
@@ -926,7 +915,6 @@
       <path value="$PROJECT_DIR$/src/templates/mapbox-gl-js-bootstrap-boilerplate" />
       <path value="$PROJECT_DIR$/src/templates/mapbox-js" />
     </ignored-roots>
-    <MESSAGE value="wip" />
     <MESSAGE value="big UX update" />
     <MESSAGE value="get_stoplist working - pulls list of stops for a route" />
     <MESSAGE value="big update to UX" />
@@ -951,7 +939,8 @@
     <MESSAGE value="re-org and new map js setup" />
     <MESSAGE value="map work in progress" />
     <MESSAGE value="stripped back to alpha features/content -- moving towards deploy" />
-    <option name="LAST_COMMIT_MESSAGE" value="stripped back to alpha features/content -- moving towards deploy" />
+    <MESSAGE value="before preflight" />
+    <option name="LAST_COMMIT_MESSAGE" value="before preflight" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1208,13 +1197,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/#deploy_tasks">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/templates/route_servicepicker.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -1226,6 +1208,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/#deploy_tasks">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="6" column="93" selection-start-line="6" selection-start-column="93" selection-end-line="6" selection-end-column="93" />
         </state>
       </provider>
     </entry>
